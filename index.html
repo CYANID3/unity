@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='light'>
 <head>
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#63c6ae">
@@ -15,6 +15,19 @@
 
 <div id="toTop"></div>
 <body>
+
+	<div class="preloader" id="preloader">
+		  <div id="cube-loader">
+    <div class="caption">
+      <div class="cube-loader">
+        <div class="cube loader-1"></div>
+        <div class="cube loader-2"></div>
+        <div class="cube loader-4"></div>
+        <div class="cube loader-3"></div>
+      </div>
+    </div>
+  </div>
+	</div>
 
 	<!-- NAVIGATION START -->
 
@@ -48,6 +61,7 @@
 						<li class="nav-item"><a href="#">how we help</a></li>
 						<li class="nav-item"><a href="#">take the tour</a></li>
 						<li class="nav-item"><a href="#">contact</a></li>
+						<input type="checkbox" id="switch" name="theme">
 					</ul>
 				</header>
 				</div>
@@ -456,6 +470,32 @@
 a:hover {cursor: url("cursor/Web_Cursor.cur"), pointer}
 </style>
 
+
+<script>
+
+	var checkbox = document.querySelector('input[name=theme]');
+
+	checkbox.addEventListener('change', function() {
+		if(this.checked){
+			trans()
+			document.documentElement.setAttribute('data-theme', 'dark');
+		} else {
+			trans()
+			document.documentElement.setAttribute('data-theme', 'light');
+
+		}
+	})
+
+	let trans = () => {
+		document.documentElement.classList.add('transition');
+		window.setTimeout(() => {
+			document.documentElement.classList.remove('transition');
+		}, 1000)
+
+	}
+
+</script>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/easing.js"></script>
@@ -468,6 +508,7 @@ a:hover {cursor: url("cursor/Web_Cursor.cur"), pointer}
 <script src="js/one-owl.js"></script>
 <script src="js/two-owl.js"></script>
 <script src="js/tree-owl.js"></script>
+<script src="js/preloader.js"></script>
 
 </body>
 </html>
