@@ -4280,7 +4280,7 @@ html, body {
   margin-top: 2px;
   text-decoration: none;
   color: white;
-  background: 30px 60px rgba(99, 198, 174, 0.9);
+  background: 30px 60px var(--bg);
 }
 
 .two a {
@@ -4355,7 +4355,7 @@ nav {
   font-family: Sintony_bold;
   text-transform: uppercase;
   width: 100%;
-  background-image: linear-gradient(to right, #63c6ae 50%, white 50%);
+  background-image: linear-gradient(to right, var(--bg) 50%, white 50%);
 }
 
 .top-nav {
@@ -4382,7 +4382,6 @@ nav {
 .nav-logo {
   padding: 1rem 0;
   margin-top: 0.2rem;
-  background: #63c6ae;
 }
 
 .nav-item a {
@@ -4417,7 +4416,7 @@ nav {
   margin: 0 auto;
   margin-bottom: 6px;
   margin-top: 200px;
-  background: 60px 100px #63c6ae;
+  background: 60px 100px var(--bg);
   pointer-events: none;
 }
 
@@ -4455,7 +4454,7 @@ nav {
 
   nav {
     background-image: none;
-    background-color: #63c6ae;
+    background-color: var(--bg);
     text-align: center;
   }
 
@@ -4496,7 +4495,7 @@ nav {
   font-family: Sintony_bold;
   text-transform: uppercase;
   width: 100%;
-  background-color: #63c6ae;
+  background-color: var(--bg);
 }
 
 .aricle-item {
@@ -4595,7 +4594,7 @@ nav {
   }
 
   .articles {
-    background-color: #63c6ae;
+    background-color: var(--bg);
     text-align: center;
     height: 70px;
   }
@@ -4690,10 +4689,10 @@ nav {
 }
 
 .owl-carousel-item:hover {
-  border: 10px solid #63c6ae;
+  border: 10px solid var(--bg);
 }
 .owl-carousel-item:hover .human img {
-  border: 5px solid #63c6ae;
+  border: 5px solid var(--bg);
 }
 
 .carousel-img {
@@ -4732,12 +4731,12 @@ nav {
 }
 @media screen and (max-width: 980px) {
   .owl-carousel-item {
-    border: 10px solid #63c6ae;
+    border: 10px solid var(--bg);
     border-radius: 20px;
   }
 
   .human img {
-    border: 5px solid #63c6ae;
+    border: 5px solid var(--bg);
   }
 
   .carousel-img img {
@@ -4747,12 +4746,12 @@ nav {
 }
 @media screen and (max-width: 720px) {
   .owl-carousel-item {
-    border: 10px solid #63c6ae;
+    border: 10px solid var(--bg);
     border-radius: 20px;
   }
 
   .human img {
-    border: 5px solid #63c6ae;
+    border: 5px solid var(--bg);
   }
 
   .carousel-img img {
@@ -4774,6 +4773,7 @@ body {
 }
 
 .menu {
+  font-family: Sintony;
   background-color: #242a2c;
   width: 20%;
 }
@@ -5041,7 +5041,7 @@ body {
 }
 
 .quote {
-  background-color: #63c6ae;
+  background-color: var(--bg);
   font-family: Sintony;
   color: white;
   z-index: 10;
@@ -5192,6 +5192,11 @@ body {
     display: none;
   }
 }
+html {
+  --bg: #495559;
+  --bg-main: red;
+}
+
 @font-face {
   font-family: "Sintony_bold";
   src: url("../fonts/Sintony Bold.eot");
