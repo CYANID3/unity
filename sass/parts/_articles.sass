@@ -1,0 +1,108 @@
+.articles
+	color: white
+	margin: 0 auto
+	font-family: Sintony_bold
+	text-transform: uppercase
+	width: 100%
+	background-color: #63c6ae
+
+.aricle-item
+	padding: 1rem 0
+	vertical-align: middle
+	align-items: center
+	margin: 0 auto
+	list-style-type: none
+	display: block
+
+.article-logo a
+	padding-top: 50px
+	text-decoration: none
+	color: white
+	font-size: 1.5vw
+
+.gallerey
+	background-color: #242a2c
+
+.gallerey-item img
+	position: relative
+	overflow: hidden
+	object-fit: contain
+	width: 100%
+	height: auto
+
+.gallerey-info
+	user-select: none
+	opacity:0 
+	padding: 0 10%
+	font-family: Sintony_bold
+	z-index: 10
+	box-shadow: 10px 10px 10px black
+	text-align: left
+	background: #242a2c
+	position: absolute
+	height: 50%
+	width: 100%
+	top: 50%
+	visibility: hidden
+
+.gallerey-info h1
+	font-size: 0.8vw
+	color: white
+
+.gallerey-info h3
+	font-size: 0.6vw
+	color: #63c6ae
+
+.date
+	display: flex
+	justify-content: space-between
+
+.gallerey-item:hover
+	.gallerey-info
+		opacity:7 
+		transition: 1.3s
+		visibility: visible
+
+@media screen and (max-width: 1200px)
+	.container
+		width: 80%
+
+@media screen and (max-width: 980px)
+	.gallerey-info
+		z-index: 9
+		top: 70%
+		opacity:.3
+		visibility: visible
+		padding:3% 10%
+		height: 30%
+
+	.gallerey-info h1
+		font-size: 3.5vw
+		color: white
+
+	.gallerey-info h3
+		font-size: 2.5vw
+		color: #63c6ae
+
+	.container
+		width: 80%
+	.articles
+		background-color: #63c6ae
+		text-align: center
+		height: 70px
+	.article-logo 
+		margin: 0 auto
+	.article-logo a
+		padding: 0
+		font-size: 40px
+		text-align: center
+		color: white
+	.aricle-item
+		padding: 10px
+		vertical-align: middle
+		align-items: center
+		text-align: center
+
+@media screen and (max-width: 480px)
+	.article-logo a
+		font-size: 7vw

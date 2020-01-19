@@ -1,0 +1,41 @@
+{
+  "name": "INFUSION",
+  "short_name": "INFUSION APP",
+  "icons": [
+    {
+      "src": "img/inlogos.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "img/inlogos.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/inlogos.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "img/inlogos.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/inlogos.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "img/inlogos.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#63c6ae",
+  "background_color": "#586165",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "INFUSION_LAYOUT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bop-n-keep-it-dippin/infusion.git",
+  "author": "Cyanide <tomorrrowland.22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}

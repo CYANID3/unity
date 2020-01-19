@@ -1,0 +1,80 @@
+body
+  width: 100%
+  height: auto
+
+.menu
+  background-color: #242a2c
+  width: 20%
+
+.menu-title
+  width: 80%
+  color: white
+  text-transform: uppercase
+  text-align: center
+
+.menu-list
+  padding: 0 0 
+
+.menu-item
+  margin-left: 20px
+  padding: 10px 0 
+  width: 70%
+  text-transform: uppercase
+  list-style-type: none
+  font-size: 20px
+  text-align: center
+  line-height: 40px
+  border-bottom: 1px solid black
+
+.menu-item:last-child
+  border-bottom: 0px
+
+.menu-item a
+  color: white
+  text-decoration: none
+  text-align: center
+
+.slideout-menu
+  position: fixed
+  top: 0
+  bottom: 0
+  width: 300px
+  min-height: 100vh
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
+  z-index: 0
+  display: none
+ 
+
+.slideout-menu-left
+  left: 0
+
+.slideout-menu-right
+  right: 0
+
+.slideout-panel
+  position: relative
+  z-index: 1
+  will-change: transform
+  background-color: #FFF
+  min-height: 100vh
+
+.slideout-open
+  overflow: hidden
+
+  body, .slideout-panel
+    overflow: hidden
+
+  .slideout-menu
+    display: block
+
+@media screen and (min-width: 980px)
+  .slideout-panel 
+    display: 256px
+
+
+
+  .slideout-menu
+    display: block
+    visibility: hidden
+
