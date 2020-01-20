@@ -169,14 +169,3 @@ lightbox.addEventListener('click', e => {
   if (e.target !== e.currentTarget) return
   lightbox.classList.remove('active')
 })
-
-var $instance = $( selector ).lightbox();
- 
-$instance.switchLightbox( index );
-// switches to the other image; accepts integer argument (an index of the desired image)
- 
-$instance.quitLightbox();
-// quits the lightbox
- 
-$instance.addToLightbox( $( 'a.is-new' ) );
-// quits the lightbox
