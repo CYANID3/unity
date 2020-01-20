@@ -4380,7 +4380,7 @@ nav {
 }
 
 .nav-logo {
-  padding: 1rem 0;
+  padding: 0 0;
   margin-top: 0.2rem;
 }
 
@@ -4392,6 +4392,7 @@ nav {
 }
 
 .nav-logo a {
+  font-family: Pacifico;
   padding-right: 50px;
   text-decoration: none;
   color: white;
@@ -4939,7 +4940,7 @@ body {
 }
 .footer {
   background-color: var(--fg);
-  font-family: Helvetica;
+  font-family: Sintony;
   color: #495559;
   margin: 0 auto;
 }
@@ -4951,7 +4952,7 @@ body {
 
 .footer-logo {
   text-align: left;
-  font-family: Sintony;
+  font-family: Pacifico;
   text-transform: uppercase;
   font-size: 0.9vw;
 }
@@ -5077,15 +5078,6 @@ html[data-theme=dark] {
   unicode-range: U+0020-00FE;
 }
 @font-face {
-  font-family: "Helvetica";
-  src: url("../fonts/HelveticaNeueCyr-Thin.eot");
-  src: url("../fonts/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Thin.svg#HelveticaNeueCyr-Thin") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-00F7;
-}
-@font-face {
   font-family: "Lato";
   src: url("../fonts/Lato Bold.eot");
   src: url("../fonts/Lato Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato Bold.woff2") format("woff2"), url("../fonts/Lato Bold.woff") format("woff"), url("../fonts/Lato Bold.ttf") format("truetype"), url("../fonts/Lato Bold.svg#Lato Bold") format("svg");
@@ -5093,6 +5085,15 @@ html[data-theme=dark] {
   font-style: normal;
   font-stretch: normal;
   unicode-range: U+0020-02DC;
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url("../fonts/Pacifico Regular.eot");
+  src: url("../fonts/Pacifico Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Pacifico Regular.woff2") format("woff2"), url("../fonts/Pacifico Regular.woff") format("woff"), url("../fonts/Pacifico Regular.ttf") format("truetype"), url("../fonts/Pacifico Regular.svg#Pacifico Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
 }
 
 /*# sourceMappingURL=style.css.map */
