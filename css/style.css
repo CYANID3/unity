@@ -4514,56 +4514,6 @@ nav {
   font-size: 1.5vw;
 }
 
-.gallerey {
-  background-color: var(--grey);
-}
-
-.gallerey-item img {
-  position: relative;
-  overflow: hidden;
-  object-fit: contain;
-  width: 100%;
-  height: auto;
-}
-
-.gallerey-info {
-  user-select: none;
-  opacity: 0;
-  border-radius: 20px;
-  padding: 0 10%;
-  font-family: Sintony_bold;
-  z-index: 10;
-  box-shadow: 10px 10px 10px black;
-  text-align: left;
-  background: var(--grey);
-  position: absolute;
-  height: 50%;
-  width: 100%;
-  top: 50%;
-  visibility: hidden;
-}
-
-.gallerey-info h1 {
-  font-size: 0.8vw;
-  color: white;
-}
-
-.gallerey-info h3 {
-  font-size: 0.6vw;
-  color: var(--main);
-}
-
-.date {
-  display: flex;
-  justify-content: space-between;
-}
-
-.gallerey-item:hover .gallerey-info {
-  opacity: 7;
-  transition: 1.3s;
-  visibility: visible;
-}
-
 @media screen and (max-width: 1200px) {
   .container {
     width: 80%;
