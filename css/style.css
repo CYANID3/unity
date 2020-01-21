@@ -4429,7 +4429,7 @@ nav {
   font-size: 17px;
   color: white;
   margin-bottom: 40px;
-  background: 60px 100px #242a2c;
+  background: 60px 100px var(--grey);
   pointer-events: none;
 }
 
@@ -4623,7 +4623,8 @@ nav {
 
 .owl-carousel-item {
   text-align: center;
-  border: 10px solid white;
+  border: 10px solid var(--main);
+  border-radius: 20px;
 }
 
 .human {
@@ -4634,9 +4635,14 @@ nav {
   z-index: 5;
 }
 
+.carousel-img img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
 .human img {
   height: auto;
-  border: 5px solid white;
+  border: 5px solid var(--main);
   border-radius: 50%;
 }
 
