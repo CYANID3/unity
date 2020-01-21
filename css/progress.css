@@ -1,0 +1,9 @@
+.progress {
+	z-index: 200;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 0%;
+	height: 6px;
+	background-color: red;
+}
