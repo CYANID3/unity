@@ -4732,7 +4732,7 @@ body {
 
 .menu {
   font-family: Sintony;
-  background-color: var(--bg);
+  background-color: var(--grey);
   width: 20%;
 }
 
